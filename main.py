@@ -80,7 +80,7 @@ def print_fastqt_data(output_fastq_data):
 
 
 def execute_sequence_conversion(input_file_path, L):
-    """execute sequence conversion and print on standard output"""
+    """execute sequence conversion and print on the standard output"""
     fastq_data = process_input_file(input_file_path, L)
     print_fastqt_data(fastq_data)
 
